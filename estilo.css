@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+input[type="text"] {
+    background-color: black;
+    color: aquamarine;
+    border: 0;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 20px;
+    ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.t2 {
+    flex: 2;
+    background-color:darkgoldenrod;
+}
+
+.t6 {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
